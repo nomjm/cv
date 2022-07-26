@@ -1,0 +1,192 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px; /*added later with Angela code
+  which may not be neccessary for me*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+
+/* Angela code removed  position: relative; /* Angela code can and may need to be removed*/
+
+  padding-top: 50px; /*Angela is 100px */
+
+
+}
+/* middle-container is entirely Angela's I didn't havce it and mine works */
+/* .middle-container{
+  margin: 100px 0;
+} NOTE: DID NOT WORKED FOR ME MARGIN TOP AND BOTTOM TOO LARGE MAY
+need TO BE LESS 50px? */
+
+.pro {
+  text-decoration: underline;
+}
+.dontdisplay{
+  display: none;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 500px;
+}
+
+.profile {
+  margin-top: 70px;
+  /*padding-top: 20px; */
+}
+/* this was superceded by the body element color .whoisme{
+ color: #40514E;
+}    */
+
+.whoisme{
+  width: 30%;  /* changes text alignment which is not wanted */
+  margin: auto; /* remedy to width change code needed to center text */
+}
+
+hr{
+ /* border-style: none; /* take note of this technically no border to enable
+  the code below */
+/*  border-top-style: dotted; */
+  /*border-bottom-style: dotted; same effect but tech the dotted linear
+  would be at the bottom but the visual effect is the same*/
+/*  border-color: lightgray;
+  border-width: 5px;
+  width: 3%;
+  margin: 50px auto; */
+ }
+
+ hr{
+border:dotted #EAF6F6 6px;
+border-bottom: none;
+width: 3%;
+margin: 50px auto;
+ }
+
+.skill-row1{
+  margin: 30px auto 175px;
+  width: 50%;
+  text-align: left;
+
+}
+
+.skill-row {
+  /*display: inline-block; this effect is the same as margin: auto; real code*/
+  margin: 30px auto 150px;
+  width: 50%;
+  text-align: left;
+
+}
+
+.firstpic {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.secondpic {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-message{
+  padding-bottom: 30px;
+  width: 30%;
+  margin: 40px auto 60px; /* this line has no effect on mine with text alignment compared to the previous code with width */
+
+}
+
+.btn{
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcfffc;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contact-me{
+  padding: 20px;
+}
+
+.bottom-container{
+  padding-top: 40px;
+  background-color: #66BFBF;
+  height: 100px;
+  margin-top: 20px;
+
+}
+
+/*below a= anchor is the same footer-link class so used instead of .footer-link class */
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  margin:auto 20px;
+  color: #11999E;
+}
+a:hover{
+   color: #EAF6F6;
+}
+
+.trademark-cright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
