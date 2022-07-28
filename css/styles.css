@@ -38,15 +38,12 @@ a {
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-
-/* Angela code removed  position: relative; /* Angela code can and may need to be removed*/
-
   padding-top: 50px; /*Angela is 100px */
-  width: 100%;
+
 
 
 }
-/* middle-container is entirely Angela's I didn't havce it and mine works */
+/* middle-container is entirely Angela's I didn't have it and mine works */
 /* .middle-container{
   margin: 100px 0;
 } NOTE: DID NOT WORKED FOR ME MARGIN TOP AND BOTTOM TOO LARGE MAY
