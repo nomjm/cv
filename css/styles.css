@@ -69,6 +69,10 @@ need TO BE LESS 50px? */
   bottom: 125px;
 }
 
+.mountain {
+  width: 100%;
+}
+
 .profile {
   margin-top: 70px;
   /*padding-top: 20px; */
