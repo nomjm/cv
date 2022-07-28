@@ -37,6 +37,7 @@ a {
 
 .top-container {
   background-color: #E4F9F5;
+  position: relative;
 
 /* Angela code removed  position: relative; /* Angela code can and may need to be removed*/
 
@@ -67,7 +68,7 @@ need TO BE LESS 50px? */
 .bottom-cloud {
   position: absolute;
   left: 15%;
-  bottom: 500px;
+  bottom: 125px;
 }
 
 .profile {
